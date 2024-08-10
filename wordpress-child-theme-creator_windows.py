@@ -72,9 +72,9 @@ add_action('wp_enqueue_scripts', '{child_theme_name.replace('-', '_')}_enqueue_s
 
 # Exemplo de uso
 # Usage example
-parent_theme_zip = "C:/Users/paulo/OneDrive/Área de Trabalho/ms-lms-starter-theme.zip"  # Substitua pelo caminho do seu arquivo zip / Replace with the path to your zip file
-child_theme_name = "ms-lms-starter-theme-child"  # Substitua pelo nome desejado para o tema filho / Replace with the desired name for the child theme
-output_dir = "C:/Users/paulo/OneDrive/Área de Trabalho"  # Substitua pelo diretório de saída / Replace with the output directory
+parent_theme_zip = "/caminho/para/seu/tema.zip"  # Substitua pelo caminho do seu arquivo zip / Replace with the path to your zip file
+child_theme_name = "meu-tema-filho"  # Substitua pelo nome desejado para o tema filho / Replace with the desired name for the child theme
+output_dir = "/caminho/para/salvar/o/tema-filho"  # Substitua pelo diretório de saída / Replace with the output directory
 
 child_theme_zip_path = create_wordpress_child_theme(
     parent_theme_zip, child_theme_name, output_dir
